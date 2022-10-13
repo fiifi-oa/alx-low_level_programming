@@ -8,5 +8,4 @@ int main(void)
 		return (0);
 
 }
-/** always prints this statement */
-// testing comment 
+/** always prints this statement */ 
