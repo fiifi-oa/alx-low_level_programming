@@ -4,6 +4,7 @@
  * main - prints the size of var type
  *
  * Return: 0 always true
+ *
  */
 
 int main(void)
