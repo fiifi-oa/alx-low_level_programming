@@ -11,12 +11,12 @@ int main(void)
 	char alp;
 
 
-	do {
 	for (alp = 'a'; alp <= 'z'; alp++)
 	{
-		putchar(alp);
+		if (alp != 'e' && alp != 'q')
+			putchar(alp);
 	}
-	} while (alp != 'e' || 'q');
+	putchar('\n');
 
 	return (0);
 }
