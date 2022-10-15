@@ -13,7 +13,7 @@ int main(void)
 	for (comb = 28; comb < 38 ; comb++)
 	{
 		putchar(comb);
-		if (comb != 34)
+		if (comb != 37)
 		{
 			putchar(',');
 			putchar(' ');
