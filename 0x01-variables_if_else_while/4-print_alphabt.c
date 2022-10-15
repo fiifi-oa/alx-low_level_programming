@@ -10,11 +10,13 @@ int main(void)
 {
 	char alp;
 
+
+	do {
 	for (alp = 'a'; alp <= 'z'; alp++)
 	{
-		do putchar(alp);
-		while (alp != 'e' || 'q');
+		putchar(alp);
 	}
+	} while (alp != 'e' || 'q');
 
 	return (0);
 }
