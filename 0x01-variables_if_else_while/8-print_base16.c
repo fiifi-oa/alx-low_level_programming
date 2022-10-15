@@ -12,7 +12,7 @@ int main(void)
 	char basix;
 
 	for (bsix = 0;  bsix < 10; bsix++)
-		putchar (bsix % 10);
+		putchar (bsix % 10 + '0');
 
 	for (basix = 'a'; basix < 'f'; basix++)
 		putchar(basix);
