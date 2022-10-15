@@ -1,5 +1,6 @@
 #include <stdlib>
 #include <time.h>
+#include <stdio.h>
 
 /**
  * main - prints whether a number is postive or negative or 0
