@@ -13,7 +13,7 @@ int main(void)
 	for (alp = 'a'; alp <= 'z'; alp++)
 	{
 		do putchar(alp);
-		while (alp != e || q);
+		while (alp != 'e' || 'q');
 	}
 
 	return (0);
