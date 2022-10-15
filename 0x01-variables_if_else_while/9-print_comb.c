@@ -10,10 +10,10 @@ int main(void)
 {
 	int comb;
 
-	for (comb = 18; comb < 98 ; comb++)
+	for (comb = 48; comb < 58 ; comb++)
 	{
 		putchar(comb);
-		if (comb != 97)
+		if (comb != 57)
 		{
 			putchar(',');
 			putchar(' ');
