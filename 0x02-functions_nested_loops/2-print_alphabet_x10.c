@@ -10,7 +10,7 @@ void print_alphabet_x10(void)
 
 	char al;
 
-	if (ten <= 9)
+	while (ten++ <= 9)
 	{
 		for (al = 'a'; al <= 'z'; al++)
 			_putchar(al);
