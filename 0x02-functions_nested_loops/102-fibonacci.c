@@ -11,7 +11,7 @@ int main(void)
 	unsigned long a = 0;
 	unsigned long b = 1;
 
-	int onum = 1;
+	int onum = 0;
 
 	while (onum < 50)
 	{
