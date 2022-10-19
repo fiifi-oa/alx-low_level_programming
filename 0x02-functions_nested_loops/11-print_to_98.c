@@ -20,5 +20,5 @@ void print_to_98(int n)
 			break;
 	}
 	_putchar('\n');
-	return (n);
+	return;
 }
