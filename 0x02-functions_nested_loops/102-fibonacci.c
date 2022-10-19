@@ -17,12 +17,17 @@ int main(void)
 	{
 		unsigned long c = a + b;
 
-		printf("%lu, ", c);
+		printf("%lu", c);
 
 		a = b;
 		b = c;
 
 		onum++;
+
+		if (onum == 49)
+			printf("\n");
+		else 
+			printf(", ");
 	}
 	return (0);
 }
