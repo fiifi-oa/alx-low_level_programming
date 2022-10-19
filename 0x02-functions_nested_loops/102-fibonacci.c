@@ -24,9 +24,9 @@ int main(void)
 
 		onum++;
 
-		if (onum == 49)
+		if (onum == 50)
 			printf("\n");
-		else 
+		else
 			printf(", ");
 	}
 	return (0);
