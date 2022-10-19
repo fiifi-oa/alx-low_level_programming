@@ -8,16 +8,16 @@
 
 int main(void)
 {
-	int a = 1;
-	int b = 2;
+	unsigned long a = 0;
+	unsigned long b = 1;
 
 	int onum = 1;
 
 	while (onum < 50)
 	{
-		int c = a + b;
+		unsigned long c = a + b;
 
-		printf("%d, ", c);
+		printf("%lu, ", c);
 
 		a = b;
 		b = c;
