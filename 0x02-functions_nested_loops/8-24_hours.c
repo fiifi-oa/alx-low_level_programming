@@ -6,7 +6,7 @@
  * Return: void
  */
 
-void jack_bauer(void);
+void jack_bauer(void)
 {
 	int h0, h1;
 	int min0, min1;
