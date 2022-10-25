@@ -27,7 +27,7 @@ int main(void)
 		{
 			b = 2772 - sum - '0';
 			sum += b;
-			putchar(n + '0');
+			putchar(b + '0');
 			break;
 		}
 	}
