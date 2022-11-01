@@ -5,7 +5,7 @@
  * Desc: Header file containing prototypes for all functions
  */
 
-
+#include <stddef.h>
 void *_memset(void *s, int b, size_t n);
 char *_memcpy(char *dest, char *src, unsigned int n);
 char *_strchr(char *s, char c);
