@@ -16,15 +16,14 @@ int main(int argc, char *argv[])
 	num1 = atoi(argv[1]);
 	num2 = atoi(argv[2]);
 
-	if (argc == 3)
-	{
-		total = num1 * num2;
-		printf("%d\n", total);
-	}
-	else
+	if (argc != 3)
 	{
 		printf("Error\n");
 		return (1);
 	}
+
+	total = num1 * num2;
+	printf("%d\n", total);
+
 	return (0);
 }
